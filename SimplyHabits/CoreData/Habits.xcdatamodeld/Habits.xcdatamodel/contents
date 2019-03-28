@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G5019" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Habit" representedClassName="Habit" syncable="YES" codeGenerationType="class">
+        <attribute name="end_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="habit_name" attributeType="String" syncable="YES"/>
+        <attribute name="picker_value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="start_date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="switch_value" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Habit" positionX="-103.953125" positionY="-116.87890625" width="132.68359375" height="150"/>
+    </elements>
+</model>
